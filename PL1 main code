@@ -1,17 +1,1 @@
-package com.mycompany.posproject;
 
-/*
-  Point of Sale System Simulator
-  Made by: Bustos Simon, Necio Aeon, Ortega Gerrard, Romero Jarrod
-  Grade and section: 11-Python
-  Submitted to: Sir Peter Ocampo
-*/
-
-public class POSProject {
-
-    public static void main(String[] args) {
-        Product Opium = new Product(4.99, "Opium", 10);
-        Opium.purchaseItem();
-        System.out.println("The shop now has " + Opium.stock + " amount of " + Opium.name + " left!");
-    }
-}
