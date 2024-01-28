@@ -1,3 +1,5 @@
+// Main file for the project
+
 package com.mycompany.posproject;
 
 public class POSProject {
